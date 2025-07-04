@@ -36,5 +36,54 @@ This Java console-based application simulates a simple e-commerce system designe
 
 ---
 
+## 💡 Example Usage
+
+```text
+Enter your name:
+Sarah
+Enter your balance:
+1000
+
+Define your products:
+Product name:
+Cheese
+Price:
+100
+Quantity:
+2
+Does this product expire? (yes/no)
+yes
+Enter expiry date (YYYY-MM-DD):
+2025-07-10
+Does this product require shipping? (yes/no)
+yes
+Enter weight in kg:
+0.2
+
+Add another product? (yes/no)
+no
+
+Available products:
+0: Cheese (100.0 EGP, 2 in stock)
+Enter product number to add to cart (or -1 to checkout):
+0
+Enter quantity to add:
+2
+
+** Shipment notice **
+Cheese 0.2kg
+Cheese 0.2kg
+Total package weight: 0.4kg
+
+** Checkout receipt **
+2x Cheese 200.0
+----------------------
+Subtotal: 200.0
+Shipping: 30.0
+Amount: 230.0
+Remaining Balance: 770.0
+
+---
+
 ## 💡 Ex
 
